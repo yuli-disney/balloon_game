@@ -24,7 +24,7 @@ function init() {
 
     // Load GLTF or GLB
     const loader = new THREE.GLTFLoader();
-    const url = '../fireroom.glb';
+    const url = 'glb/fireroom.glb';
 
     let model = null;
     loader.load(
